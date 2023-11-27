@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { IconContext } from "react-icons";
 import { FaGithub } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
@@ -26,7 +26,9 @@ const Hero = () => {
           </div>
           <div className="flex space-x-5 md:space-x-10 text-white">
             <Link
-              to={"/foot"}
+              to="contact"
+              smooth={true}
+              duration={1000}
               className="border border-transparent hover:py-4 whitespace-nowrap hover:px-11 text-white bg-gradient-to-r from-cyan-500 to-blue-500 py-3 px-10 border-t-2 border-b-2 rounded-xl"
             >
               Reach out

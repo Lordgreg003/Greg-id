@@ -15,13 +15,13 @@ const Project1 = () => {
           <hr className="border-2 border-[#B2B9CF]  rounded-3xl" />
         </div>
       </div>
-      <div className="w-full bg-[#222831] px-2 space-x-0 md:space-x-4 lg:px-40   md:px-10  lg:-space-y-[200px] flex-wrap  md:flex h-[2900px] space-y-5 md:space-y-0 lg:py-10 lg:h-[2000px] md:h-[1600px]">
+      <div className="w-full bg-[#222831]  px-5 space-x-0 md:space-x-4 lg:px-40   md:px-10  lg:-space-y-[200px] flex-wrap  md:flex h-[2900px] space-y-5 md:space-y-0 lg:py-10 lg:h-[2000px] md:h-[1600px]">
         <div className="relative   h-[700px]   flex-wrap md:flex-col">
           <div
             style={{ backgroundImage: `url(${facebook})` }}
-            className=" lg:hover:w-[950px] lg:hover:h-[450px] bg-no-repeat bg-cover lg:w-[900px] rounded-xl w-[340px]  h-[200px]  relative lg:h-[400px]"
+            className=" lg:hover:w-[950px]  lg:hover:h-[450px] bg-no-repeat bg-cover lg:w-[900px] rounded-xl w-[320px]  h-[160px]   relative lg:h-[400px]"
           ></div>
-          <div className="absolute z-10 text-left bg-[#263243] rounded-xl lg:top-0 lg:-ml-28 border-transparent   border-2 rounded-bl-sm h-[450px] w-[340px] text-[#B2B9CF]  lg:w-[600px] lg:h-[400px] space-y-5 px-5 py-8 md:space-y-5 md:px-5 md:py-8">
+          <div className="absolute  z-10 text-left bg-[#263243] rounded-xl lg:top-0 lg:-ml-28 border-transparent   border-2 rounded-bl-sm h-[480px] w-[320px] text-[#B2B9CF]  lg:w-[600px] lg:h-[400px] space-y-5 px-5 py-8 md:space-y-5 md:px-5 md:py-8">
             <div>PROJECT #1</div>
             <div className="text-[#3F99DE] font-bold text-xl">
               FACEBOOK CLONE
@@ -61,9 +61,9 @@ const Project1 = () => {
         <div className="relative  h-[700px]   flex-wrap md:flex-col">
           <div
             style={{ backgroundImage: `url(${commerce})` }}
-            className="bg-white lg:hover:w-[950px] lg:hover:h-[450px] bg-no-repeat bg-cover lg:w-[900px] rounded-xl w-[340px]  h-[200px]  relative lg:h-[400px]"
+            className="bg-white lg:hover:w-[950px] lg:hover:h-[450px] bg-no-repeat bg-cover lg:w-[900px] rounded-xl w-[320px]  h-[160px]  relative lg:h-[400px]"
           ></div>
-          <div className="absolute z-10 text-[#B2B9CF]  bg-[#263243] rounded-xl lg:top-0 lg:right-0 lg:-mr-28  border-transparent h-[450px] w-[340px] text-right  border-2 rounded-bl-sm  lg:w-[600px] lg:h-[400px] space-y-5 px-5 py-8 md:px-5 md:py-8 md:space-y-5">
+          <div className="absolute z-10 text-[#B2B9CF]  bg-[#263243] rounded-xl lg:top-0 lg:right-0 lg:-mr-28  border-transparent h-[450px] w-[320px] text-right  border-2 rounded-bl-sm  lg:w-[600px] lg:h-[400px] space-y-5 px-5 py-8 md:px-5 md:py-8 md:space-y-5">
             <div className="">PROJECT #2</div>
             <div className="text-[#3F99DE] font-bold text-xl">
               E-COMMERCE WEBSITE
@@ -102,9 +102,9 @@ const Project1 = () => {
         <div className="relative h-[700px]   flex-wrap md:flex-col">
           <div
             style={{ backgroundImage: `url(${quote})` }}
-            className="bg-white lg:hover:w-[950px] lg:hover:h-[450px] bg-no-repeat bg-cover lg:w-[900px] rounded-xl w-[340px]  h-[200px]  relative lg:h-[400px]"
+            className="bg-white lg:hover:w-[950px] lg:hover:h-[450px] bg-no-repeat bg-cover lg:w-[900px] rounded-xl w-[320px]  h-[160px]  relative lg:h-[400px]"
           ></div>
-          <div className="text-[#B2B9CF]   absolute z-10 bg-[#263243] rounded-xl lg:top-0 lg:-ml-28 border-transparent   border-2 rounded-bl-sm h-[450px] w-[340px] text-left md:px-5 md:py-8 md:space-y-5 space-y-5 px-5 py-8  lg:w-[600px] lg:h-[400px]">
+          <div className="text-[#B2B9CF]   absolute z-10 bg-[#263243] rounded-xl lg:top-0 lg:-ml-28 border-transparent   border-2 rounded-bl-sm h-[450px] w-[320px] text-left md:px-5 md:py-8 md:space-y-5 space-y-5 px-5 py-8  lg:w-[600px] lg:h-[400px]">
             <div>PROJECT #3</div>
             <div className="text-[#3F99DE] font-bold text-xl">
               QUOTE GENERATOR
@@ -143,9 +143,9 @@ const Project1 = () => {
         <div className="relative h-[700px]   flex-wrap md:flex-col">
           <div
             style={{ backgroundImage: `url(${colour})` }}
-            className="bg-white lg:hover:w-[950px] lg:hover:h-[450px] bg-no-repeat bg-cover lg:w-[900px] rounded-xl w-[340px]  h-[200px]  relative lg:h-[400px]"
+            className="bg-white lg:hover:w-[950px] lg:hover:h-[450px] bg-no-repeat bg-cover lg:w-[900px] rounded-xl w-[320px]  h-[160px]  relative lg:h-[400px]"
           ></div>
-          <div className="text-[#B2B9CF] text-right   absolute z-10 bg-[#263243] rounded-xl lg:top-0 lg:right-0 lg:-mr-28  border-transparent h-[450px] w-[340px]  border-2 rounded-bl-sm  lg:w-[600px] lg:h-[400px] space-y-5 px-5 py-8 md:px-10 md:py-8 md:space-y-5 ">
+          <div className="text-[#B2B9CF] text-right   absolute z-10 bg-[#263243] rounded-xl lg:top-0 lg:right-0 lg:-mr-28  border-transparent h-[450px] w-[320px]  border-2 rounded-bl-sm  lg:w-[600px] lg:h-[400px] space-y-5 px-5 py-8 md:px-10 md:py-8 md:space-y-5 ">
             <div>PROJECT #4</div>
             <div className="text-[#3F99DE] font-bold text-xl">
               BACKGROUND COLOR GENERATOR
