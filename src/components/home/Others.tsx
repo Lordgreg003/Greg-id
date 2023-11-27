@@ -14,7 +14,7 @@ const Others = () => {
           <hr className="border-2 w-[340px] md:w-[390px]  border-[#B2B9CF]  rounded-3xl" />
         </div>
       </div>
-      <div className="py-5 md:py-0 lg:py-0   px-5 md:px-0 lg:px-0 space-y-5 md:space-y-0 lg:space-y-0    w-full justify-evenly items-center flex-wrap md:flex h-[1250px] md:h-[790px] lg:h-[800px] bg-[#222831]">
+      <div className="py-5 md:py-0 lg:py-0   px-7 md:px-0 lg:px-0 space-y-5 md:space-y-0 lg:space-y-0    w-full justify-evenly items-center flex-wrap md:flex h-[1250px] md:h-[790px] lg:h-[800px] bg-[#222831]">
         <div className="lg:w-[350px] text-[#B2B9CF] lg:space-y-20 lg:px-10 lg:py-10 text-left bg-[#263243] w-[300px] h-[350px] md:w-[350px] px-5 py-4 space-y-5 md:h-[300px] md:px-5 md:py-5 md:space-y-5  lg:h-[600px]">
           <div>
             {" "}
