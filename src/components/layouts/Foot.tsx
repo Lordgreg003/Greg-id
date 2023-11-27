@@ -6,7 +6,10 @@ import { FaSquareInstagram } from "react-icons/fa6";
 
 const Foot = () => {
   return (
-    <footer className="w-full lg:h-[800px] h-[700px] md:h-[700px] bg-[#222831]">
+    <footer
+      className="w-full lg:h-[800px] h-[700px] md:h-[700px] bg-[#222831]"
+      id="contact"
+    >
       <div className="w-full bg-[#222831] justify-center flex-wrap md:flex items-center lg:h-[700px]">
         <div className=" px-10 py-5 space-y-3 w-full h-[300px] md:w-[500px] md:px-10 md:space-y-5 md:py-20  text-center md:h-[500px]">
           <div className="text-[#7E92D9]">Next steps?</div>
@@ -65,7 +68,7 @@ const Foot = () => {
           </div>
         </div>
       </div>
-      <div className="px-40">
+      <div className="md:px-40">
         <hr className="border-1  border-[#B2B9CF]  rounded-3xl" />
       </div>
       <div className="text-[#B2B9CF] py-10">Snappy-fix codes</div>

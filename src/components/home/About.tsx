@@ -3,9 +3,9 @@ import { Greg } from "../../images/Index";
 
 const About = () => {
   return (
-    <section className="overflow-x-hidden">
-      <div className="w-full space-y-20 md:space-y-0 lg:space-y-0 lg:h-[700px] bg-[#222831] justify-center flex-wrap md:flex overflow-x-hidden">
-        <div className="w-full  md:w-[600px] px-10 py-10 space-y-5  h-[680px] text-left text-[#B2B9CF]">
+    <section className="overflow-x-hidden" id="about">
+      <div className="w-full space-y-32 md:space-y-0 lg:space-y-0 lg:h-[700px] bg-[#222831] justify-center flex-wrap md:flex overflow-x-hidden">
+        <div className="w-full  md:w-[600px] px-7 py-10 space-y-5  h-[680px] text-left text-[#B2B9CF]">
           <div className="space-y-2">
             <div className="text-3xl font-bold ">About</div>
             <div>
@@ -70,7 +70,7 @@ const About = () => {
           </div>
           <div></div>
         </div>
-        <div className="w-full  md:w-[400px] px-10 h-[680px] lg:px-4 lg:py-24">
+        <div className="w-full  md:w-[400px] px-10 h-[480px] lg:px-4 lg:py-24">
           <div className="border-4 border-[#134B91] rounded-lg">
             <img src={Greg} alt="" />
           </div>

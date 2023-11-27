@@ -10,12 +10,12 @@ const Others = () => {
         <div className="w-full   font-bold text-[#B2B9CF] text-3xl">
           Other Notable Projects
         </div>
-        <div className="px-16 md:w-full md:px-72 lg:px-64  h-9 ">
-          <hr className="border-2 w-[390px] md:w-[390px]  border-[#B2B9CF]  rounded-3xl" />
+        <div className="px-3 md:w-full md:px-72 lg:px-64  h-9 ">
+          <hr className="border-2 w-[340px] md:w-[390px]  border-[#B2B9CF]  rounded-3xl" />
         </div>
       </div>
-      <div className="py-5 md:py-0 lg:py-0   px-14 md:px-0 lg:px-0 space-y-5 md:space-y-0 lg:space-y-0    w-full justify-evenly items-center flex-wrap md:flex h-[1200px] md:h-[790px] lg:h-[800px] bg-[#222831]">
-        <div className="lg:w-[350px] text-[#B2B9CF] lg:space-y-20 lg:px-10 lg:py-10 text-left bg-[#263243] w-[350px] h-[350px] md:w-[350px] px-5 py-4 space-y-5 md:h-[300px] md:px-5 md:py-5 md:space-y-5  lg:h-[600px]">
+      <div className="py-5 md:py-0 lg:py-0   px-5 md:px-0 lg:px-0 space-y-5 md:space-y-0 lg:space-y-0    w-full justify-evenly items-center flex-wrap md:flex h-[1250px] md:h-[790px] lg:h-[800px] bg-[#222831]">
+        <div className="lg:w-[350px] text-[#B2B9CF] lg:space-y-20 lg:px-10 lg:py-10 text-left bg-[#263243] w-[300px] h-[350px] md:w-[350px] px-5 py-4 space-y-5 md:h-[300px] md:px-5 md:py-5 md:space-y-5  lg:h-[600px]">
           <div>
             {" "}
             <div className="flex space-x-10">
@@ -51,7 +51,7 @@ const Others = () => {
             </span>{" "}
           </div>
         </div>
-        <div className="lg:w-[350px] text-[#B2B9CF] lg:space-y-20 lg:px-10 lg:py-10 text-left bg-[#263243] w-[350px] h-[350px] px-5 py-4 space-y-4  md:w-[350px] md:h-[300px] md:px-5 md:py-5 md:space-y-1  lg:h-[600px]">
+        <div className="lg:w-[350px] text-[#B2B9CF] lg:space-y-20 lg:px-10 lg:py-10 text-left bg-[#263243] w-[300px] h-[350px] px-5 py-4 space-y-4  md:w-[350px] md:h-[300px] md:px-5 md:py-5 md:space-y-1  lg:h-[600px]">
           <div>
             {" "}
             <div className="flex space-x-10">
@@ -87,7 +87,7 @@ const Others = () => {
             </span>
           </div>
         </div>
-        <div className="lg:w-[350px] lg:space-y-8 text-[#B2B9CF] lg:px-10 lg:py-10 text-left bg-[#263243] w-[350px] h-[400px] px-5 py-5 space-y-2  md:w-[350px] md:h-[400px] md:px-5 md:py-5 md:space-y-2    lg:h-[600px]">
+        <div className="lg:w-[350px] lg:space-y-8 text-[#B2B9CF] lg:px-10 lg:py-10 text-left bg-[#263243] w-[300px] h-[450px] px-5 py-5 space-y-2  md:w-[350px] md:h-[400px] md:px-5 md:py-5 md:space-y-2    lg:h-[600px]">
           <div>
             {" "}
             <div className="flex space-x-10">

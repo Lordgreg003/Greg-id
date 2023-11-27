@@ -8,8 +8,8 @@ import { FaSquareInstagram } from "react-icons/fa6";
 const Hero = () => {
   return (
     <section className="overflow-x-hidden overflow-y-hidden">
-      <div className="w-full h-[600px] md:h-[400px] lg:h-[600px] bg-[#222831] justify-evenly flex-wrap lg:flex md:flex overflow-x-hidden overflow-y-hidden">
-        <div className="space-y-6 md:space-y-6 lg:space-y-10 px-10 py-10 text-[#B2B9CF]  md:w-[650px] text-left">
+      <div className="w-full h-[530px] md:h-[400px] lg:h-[600px] bg-[#222831] justify-evenly flex-wrap lg:flex md:flex overflow-x-hidden overflow-y-hidden">
+        <div className="space-y-6 md:space-y-6 lg:space-y-10 px-5 py-10 text-[#B2B9CF]  md:w-[650px] text-left">
           <div>Hi there</div>
           <div className="font-bold text-5xl text-[#B2B9CF]">
             I am{" "}
@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex space-x-5 md:space-x-10 text-white">
             <Link
               to={"/foot"}
-              className="border border-transparent hover:py-4 hover:px-11 text-white bg-gradient-to-r from-cyan-500 to-blue-500 py-3 px-10 border-t-2 border-b-2 rounded-xl"
+              className="border border-transparent hover:py-4 whitespace-nowrap hover:px-11 text-white bg-gradient-to-r from-cyan-500 to-blue-500 py-3 px-10 border-t-2 border-b-2 rounded-xl"
             >
               Reach out
             </Link>
