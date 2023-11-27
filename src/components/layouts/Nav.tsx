@@ -1,6 +1,6 @@
 import { image1 } from "../../images/Index";
-import { Link } from "react-router-dom";
 import "animate.css";
+import { Link } from "react-scroll";
 import { useRef } from "react";
 
 const Nav = () => {
@@ -30,16 +30,28 @@ const Nav = () => {
         </div>
         <div className="hidden animate__slideInLeft animate__animated animate__slideInLeft animate__slower       lg:flex items-center lg:space-x-6 md:hidden ">
           <div className="lg:space-x-10 text-white">
-            <Link className="hover:text-[#5E9EED] hover:text-xl" to={"/about"}>
+            <Link
+              className="hover:text-[#5E9EED] hover:text-xl"
+              to="about"
+              smooth={true}
+              duration={1000}
+            >
               About
             </Link>
             <Link
               className="hover:text-[#5E9EED] hover:text-xl"
-              to={"/project"}
+              to="project"
+              smooth={true}
+              duration={1000}
             >
               Projects
             </Link>
-            <Link className="hover:text-[#5E9EED] hover:text-xl" to={"/foot"}>
+            <Link
+              className="hover:text-[#5E9EED] hover:text-xl"
+              to="contact"
+              smooth={true}
+              duration={1000}
+            >
               Contact
             </Link>
           </div>
@@ -64,14 +76,20 @@ const Nav = () => {
         <div ref={flexRef} className="hidden md:hidden">
           <div className="absolute z-20 flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-[#202731] animate__fadeInRight   animate__animated animate__fadeInRight animate__slower sm:w-auto sm:self-center left-6 right-6 drop-shadow-md text-white">
             <div>
-              <Link to={"/about"}>About</Link>
+              <Link to="about" smooth={true} duration={1000}>
+                About
+              </Link>
             </div>
             <div>
               {" "}
-              <Link to={"/project"}>Project</Link>
+              <Link to="project " smooth={true} duration={1000}>
+                Project
+              </Link>
             </div>
             <div>
-              <Link to={"foot"}>Contact</Link>
+              <Link to="contact" smooth={true} duration={1000}>
+                Contact
+              </Link>
             </div>
           </div>
         </div>
