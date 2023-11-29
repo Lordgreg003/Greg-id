@@ -69,7 +69,7 @@ const Foot = () => {
         </div>
       </div>
       <div className="md:px-40">
-        <hr className="border-1  border-[#B2B9CF]  rounded-3xl" />
+        <hr className="border-1  border-[#263141]  rounded-3xl" />
       </div>
       <div className="text-[#B2B9CF] py-10">Snappy-fix codes</div>
     </footer>
