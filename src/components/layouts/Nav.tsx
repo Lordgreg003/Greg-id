@@ -95,7 +95,7 @@ const Nav = () => {
         </div>
       </div>
       <div>
-        <hr className="border border-[#B2B9CF]  rounded-3xl" />
+        <hr className="border border-[#263141]  rounded-3xl" />
       </div>
     </section>
   );
